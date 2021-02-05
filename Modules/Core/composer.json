@@ -1,0 +1,25 @@
+{
+    "name": "overpro/core",
+    "description": "",
+    "authors": [
+        {
+            "name": "OverPRO crew",
+            "email": "team@overpro.ru"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Core\\Providers\\CoreServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Core\\": ""
+        }
+    }
+}

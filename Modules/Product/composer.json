@@ -1,0 +1,25 @@
+{
+    "name": "overpro/product",
+    "description": "",
+    "authors": [
+        {
+            "name": "OverPRO crew",
+            "email": "team@overpro.ru"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Product\\Providers\\ProductServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Product\\": ""
+        }
+    }
+}

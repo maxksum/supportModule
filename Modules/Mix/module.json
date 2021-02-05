@@ -1,0 +1,16 @@
+{
+    "name": "Mix",
+    "alias": "mix",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Mix\\Providers\\MixServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

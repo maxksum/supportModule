@@ -1,0 +1,103 @@
+.dropcontainer {
+	position:absolute;
+	font-size: 16px;
+	color: #777;
+	width: 244px;
+	left: 90px;
+	right: 0;
+	margin: 0 auto;
+	z-index: 10;
+	top: 100%;
+} 
+
+.trigger {
+	color: #f9cf28;
+	font-size: 18px;
+	width: 260px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #141618 url(../images/sets/arrow-bot.png) no-repeat center right 15px;
+	border: 1px solid #29292a;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	border-radius: 16px;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease; 
+	transition: all 0.3s ease;
+	font-family: PTSansNarrowBold;
+}
+
+.activetrigger {
+	color: #f9cf28;
+	font-size: 18px;
+	width: 260px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #141618 url(../images/sets/arrow-top.png) no-repeat center right 15px;
+	border: 1px solid #29292a;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	border-radius: 16px;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: PTSansNarrowBold;
+}
+
+.dropcontainer ul {
+	font-size: 18px;
+	background: #141618;
+	border: 1px solid #29292a;
+	border-top: none;
+	list-style-type: none;
+	width: 244px;
+	line-height: 20px;
+	z-index: 100;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: center;
+	font-family: PTSansNarrowBold;
+}
+
+.dropcontainer ul li {
+	padding: 5px;
+	-webkit-transition: all 0.3s ease; 
+	-moz-transition: all 0.3s ease; 
+	-o-transition: all 0.3s ease; 
+	transition: all 0.3s ease;
+	font-family: PTSansNarrowBold;
+	border-bottom: 1px solid #29292a;
+	}
+.dropcontainer ul li a {
+	font-family: PTSansNarrowBold;
+}
+
+.dropcontainer ul li:hover {
+	background: #000;
+	outline: none;
+	}
+
+.dropcontainer ul li:first-child {
+	display: none;
+	}
+
+.dropcontainer ul li:last-child {
+	border-bottom: none;
+	}
+
+.dropdownhidden {
+	display: none;
+	}
+
+.dropdownvisible {
+	height: auto;
+	}

@@ -1,0 +1,28 @@
+{
+    "name": "overpro/mix",
+    "description": "",
+    "authors": [
+        {
+            "name": "OverPRO crew",
+            "email": "team@overpro.ru"
+        }
+    ],
+    "require": {
+        "gries/rcon": "^0.0.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Mix\\Providers\\MixServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Mix\\": ""
+        }
+    }
+}

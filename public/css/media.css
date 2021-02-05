@@ -1,0 +1,213 @@
+/*==============================================*/
+/*==============================================*/
+@media screen and (max-width:1320px){
+form.sets .second,
+form.sets .third {
+	margin-left: 35px;
+}
+.death_player_stats {
+	width: 68%;
+}
+}
+/*==============================================*/
+/*==============================================*/
+@media screen and (max-width:1280px){
+.profile .sub .name,
+.profile .sub .balance {
+	visibility: visible;
+}
+.list_game span {
+	font-size: 12px;
+}
+.game_block .item .game_info .player_count {
+	margin: 0 3%;
+}
+form.sets .second,
+form.sets .third {
+	margin-left: 15px;
+}
+form.sets {
+	width: 99%;
+}
+form.sets .third {
+	width: 290px;
+}
+form.sets .skill_block span {
+	display: none;
+}
+.game_block .item .stream_name {
+	line-height: 20px;
+	top: 5px;
+}
+.game_block .item .stream_param {
+	line-height: 20px;
+	bottom: 5px;
+}
+.preview_inner .item:nth-child(1) {
+	width: 310px;
+}
+.preview_inner .item:nth-child(2) {
+	width: 450px;
+}
+.preview_inner .item:nth-child(3) {
+	width: 310px;
+	right: 0;
+}
+.detail_game_block .detail_sets .detail_title {
+	padding-top: 0px;
+}
+.detail_game_block .detail_logs {
+	width: 74%;
+}
+.death_stats {
+	width: 340px;
+}
+.death_timer {
+	margin-left: 10px;
+	width: 51%;
+}
+.death_timer .death_timer_count .item:nth-child(1) {
+	margin-right: 7px;
+}
+.death_player_stats {
+    width: 64%;
+}
+.tournament_block .frame {
+	width: 795px;
+}
+.tournament_block .frame .text .img {
+	margin-left: 5px;
+}
+.tournament_block .send {
+	width: 270px;
+	margin-left: 10px;
+}
+.tournament_detail_block {
+	width: 59%;
+}
+.stream_detail_online {
+	width: 68%;
+}
+.login_steam {
+	right: 5px;
+}
+.donate_img {
+	left: 515px;
+}
+.prof_stats_items .item .item_inner {
+	padding-left: 28%;
+}
+.prof_stats_items .item:nth-child(1) {
+	background-position-x: 6% !important;
+}
+.prof_stats_items .item:nth-child(2) {
+	background-position-x: 5% !important;
+}
+.prof_stats_items .item:nth-child(3) {
+	background-position-x: 7% !important;
+}
+.prof_stats_items .item:nth-child(4) {
+	background-position-x: 8% !important;
+}
+.prof_stats_items .item:nth-child(5) {
+	background-position-x: 6% !important;
+}
+.game_act_block .start_act_game {
+	left: 10px;
+}
+.game_act_block .game_act_info {
+	right: 10px;
+}
+.nav ul.navi li {
+	margin-right: 10px;
+}
+.info_chat {
+	top: auto;
+	bottom: 10px;
+}
+.info_chat .show_chat {
+	position: relative;
+	display: inline-block;
+	z-index: 1;
+	margin-bottom: 0;
+}
+.info_chat .online {
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin-bottom: 0;
+	margin-right: 5px;
+}
+.free_coin {
+	left: 161px;
+}
+}
+/*==============================================*/
+/*==============================================*/
+@media screen and (max-width:1250px){
+.login_steam {
+	width: 210px;
+}
+}
+/*==============================================*/
+/*==============================================*/
+@media screen and (max-width:1210px){
+.login_steam {
+	width: 190px;
+}
+.login_steam:before {
+	background: none;
+}
+.login_steam span {
+	padding-left: 0;
+	text-align: center;
+}
+.login_steam p {
+	padding-left: 0;
+	text-align: center;
+	font-size: 11px;
+}
+ .profile {
+	width: 200px;
+    right: 90px;
+}
+.profile .first_name {
+	display: none;
+} 
+.players_online {
+	width: 144px;
+	height: 102px;
+}
+.players_online .item {
+	position: relative;
+	display: block;
+	float: none;
+	margin: 0 !important;
+	margin-bottom: 2px !important;
+}
+.free_coin {
+	left: 171px;
+}
+/* .slick-slider {
+	left: 275px;
+} */
+}
+/*==============================================*/
+/*==============================================*/
+@media screen and (max-width:1190px){
+.login_steam {
+	width: 170px;
+}
+}
+/*==============================================*/
+/*==============================================*/
+@media screen and (max-width:1150px){
+.login_steam {
+	width: 135px;
+}
+}
+/*==============================================*/
+/*==============================================*/
+@media screen and (max-width:1100px){
+
+}

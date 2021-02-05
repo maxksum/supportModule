@@ -1,0 +1,29 @@
+{
+    "name": "pupsick/user-module",
+    "description": "",
+	"type": "laravel-module",
+    "authors": [
+        {
+            "name": "OverPRO crew",
+            "email": "team@overpro.ru"
+        }
+    ],
+    "require": {
+        "kanalumaddela/laravel-steam-login": "^1.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\User\\Providers\\UserServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\User\\": ""
+        }
+    }
+}

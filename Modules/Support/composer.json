@@ -1,0 +1,26 @@
+{
+    "name": "nwidart/support-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+	"type": "laravel-module",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Support\\Providers\\SupportServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Support\\": ""
+        }
+    }
+}

@@ -1,0 +1,214 @@
+/*==============================================*/
+/*==============================================*/
+@media screen and (max-width:1320px){
+form.sets .second,
+form.sets .third {
+	margin-left: 35px;
+}	
+.death_player_stats {
+	width: 68%;
+}
+}
+/*==============================================*/
+/*==============================================*/
+@media screen and (max-width:1280px){
+.profile {
+	width: 115px;
+}
+.profile .name,
+.profile .balance {
+	visibility: hidden;
+}
+.profile .sub .name,
+.profile .sub .balance {
+	visibility: visible;
+}
+.list_game span {
+	font-size: 12px;
+}
+.game_block .item .game_info .player_count {
+	margin: 0 3%;
+}
+form.sets .second,
+form.sets .third {
+	margin-left: 15px;
+}
+form.sets {
+	width: 99%;
+}
+form.sets .third {
+	width: 290px;
+}
+form.sets .skill_block span {
+	display: none;
+}
+.game_block .item .stream_name {
+	line-height: 20px;
+	top: 5px;
+}
+.game_block .item .stream_param {
+	line-height: 20px;
+	bottom: 5px;
+}
+.preview_inner .item:nth-child(1) {
+	width: 310px;
+}
+.preview_inner .item:nth-child(2) {
+	width: 450px;
+}
+.preview_inner .item:nth-child(3) {
+	width: 310px;
+	right: 0;
+}
+.detail_game_block .detail_sets .detail_title {
+	padding-top: 0px;
+}
+.detail_game_block .detail_logs {
+	width: 74%;
+}
+.death_stats {
+	width: 340px;
+}
+.death_timer {
+	margin-left: 10px;
+	width: 51%;
+}
+.death_timer .death_timer_count .item:nth-child(1) {
+	margin-right: 7px;
+}
+.death_player_stats {
+    width: 64%;
+}
+.tournament_block .frame {
+	width: 795px;
+}
+.tournament_block .frame .text .img {
+	margin-left: 5px;
+}
+.tournament_block .send {
+	width: 270px;
+	margin-left: 10px;
+}
+.tournament_detail_block {
+	width: 59%;
+}
+.stream_detail_online {
+	width: 68%;
+}
+.login_steam {
+	right: 5px;
+}
+.donate_img {
+	left: 515px;
+}
+.prof_stats_items .item .item_inner {
+	padding-left: 28%;
+}
+.prof_stats_items .item:nth-child(1) {
+	background-position-x: 6% !important;
+}
+.prof_stats_items .item:nth-child(2) {
+	background-position-x: 5% !important;
+}
+.prof_stats_items .item:nth-child(3) {
+	background-position-x: 7% !important;
+}
+.prof_stats_items .item:nth-child(4) {
+	background-position-x: 8% !important;
+}
+.prof_stats_items .item:nth-child(5) {
+	background-position-x: 6% !important;
+}
+}
+/*==============================================*/
+/*==============================================*/
+@media screen and (max-width:1250px){
+.login_steam {
+	width: 210px;
+}
+}
+/*==============================================*/
+/*==============================================*/
+@media screen and (max-width:1210px){
+.login_steam {
+	width: 190px;
+}
+.login_steam:before {
+	background: none;
+}
+.login_steam span {
+	padding-left: 0;
+	text-align: center;
+} 
+.login_steam p {
+	padding-left: 0;
+	text-align: center;
+	font-size: 11px;
+} 
+}
+/*==============================================*/
+/*==============================================*/
+@media screen and (max-width:1190px){
+.login_steam {
+	width: 170px;
+}
+}
+/*==============================================*/
+/*==============================================*/
+@media screen and (max-width:1150px){
+.login_steam {
+	width: 135px;
+}
+.land_era .item:nth-child(1) {
+	left: 30px;
+}
+.land_era .item:nth-child(2) {
+	right: 30px;
+}
+}
+/*==============================================*/
+/*==============================================*/
+@media screen and (max-width:1100px){
+.block_info_stats .item span {
+	font-size: 38px;
+	padding-top: 23px;
+	margin-bottom: -7px;
+}
+.block_info_stats .item p {
+	font-size: 18px;
+}
+}
+/*==============================================*/
+/*==============================================*/
+@-webkit-keyframes radius {
+	0% {
+		-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-o-transform: rotate(0deg);-ms-transform: rotate(0deg);transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);-o-transform: rotate(360deg);-ms-transform: rotate(360deg);transform: rotate(360deg);
+	}
+}
+@-moz-keyframes radius {
+	0% {
+		-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-o-transform: rotate(0deg);-ms-transform: rotate(0deg);transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);-o-transform: rotate(360deg);-ms-transform: rotate(360deg);transform: rotate(360deg);
+	}
+}
+@-o-keyframes radius {
+	0% {
+		-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-o-transform: rotate(0deg);-ms-transform: rotate(0deg);transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);-o-transform: rotate(360deg);-ms-transform: rotate(360deg);transform: rotate(360deg);
+	}
+}
+@keyframes radius {
+	0% {
+		-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-o-transform: rotate(0deg);-ms-transform: rotate(0deg);transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);-o-transform: rotate(360deg);-ms-transform: rotate(360deg);transform: rotate(360deg);
+	}
+}

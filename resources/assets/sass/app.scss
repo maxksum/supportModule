@@ -1,0 +1,34 @@
+// Variables
+@import "variables";
+@import "~vue2-scrollbar/dist/style/vue2-scrollbar.css";
+
+.lobbies-scrollbar {
+  background: none;
+  min-height: 250px;
+  max-height: 530px;
+}
+
+.chat-scrollbar {
+  background: none;
+  height: 530px;
+  margin: 10px auto 20px;
+}
+
+#lobbies_list {
+  min-height: 400px;
+}
+
+.vue-scrollbar__scrollbar-vertical .scrollbar {
+  background: #f9cf28;
+}
+// #chat_messages {
+//   height: 529px;
+// }
+
+.lobbies-scrollbar .vue-scrollbar__scrollbar-vertical {
+  padding: 12px 0;
+}
+
+.border-box, .border-box * {
+  box-sizing: border-box;
+}
